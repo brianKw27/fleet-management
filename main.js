@@ -64,7 +64,7 @@ function solveProblem(destinationNames, driverNames) {
 }
 
 
-const destinationNames = ['towercity','silicon valley','londondream','michigan'];
-const driverNames = ['Johns', 'MichaleKing', 'JeremyBrick', 'BrianKennedy'];
+const destinationNames = ['towercity','silicon valley','londondream','michigan']; //destination names
+const driverNames = ['Johns', 'MichaleKing', 'JeremyBrick', 'BrianKennedy']; // driver names
 
 solveProblem(destinationNames, driverNames);
