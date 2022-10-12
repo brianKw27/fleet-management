@@ -1,11 +1,11 @@
 const VOWELS = ['a', 'e', 'i', 'o', 'u'];
 
 function getVowelsCount(str) {
-    return str.split('').filter(a => VOWELS.includes(a)).length;
+    return str.toLowerCase().split('').filter(a => VOWELS.includes(a)).length;
 }
 
 function getConsonantsCount(str) {
-    return str.split('').filter(a => !VOWELS.includes(a)).length;
+    return str.toLowerCase().split('').filter(a => !VOWELS.includes(a)).length;
 }
 
 function gcd(k, n) {
@@ -64,7 +64,7 @@ function solveProblem(destinationNames, driverNames) {
 }
 
 
-const destinationNames = ['towercity','silicon valley','londondream','michigan']; //destination names
-const driverNames = ['Johns', 'MichaleKing', 'JeremyBrick', 'BrianKennedy']; // driver names
+const destinationNames = ['towercity','silicon valley','londondream','michigan'];
+const driverNames = ['Johns', 'MichaleKing', 'JeremyBrick', 'BrianKennedy'];
 
 solveProblem(destinationNames, driverNames);
